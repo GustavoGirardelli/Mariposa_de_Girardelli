@@ -15,3 +15,5 @@
 - Code: butterfly_3D.py headless + Blender optional
 
 Compatible with mrcamoga/langton-s-ant rule format R L U D
+
+Link: https://langtonsant.es/ - Token RLUD
