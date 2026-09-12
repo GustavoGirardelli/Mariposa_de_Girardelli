@@ -1,3 +1,4 @@
+import sys
 # butterfly_3D.py
 
 # python3 butterfly_3D.py
@@ -58,7 +59,7 @@ def set_voxel(pos, state):
     k = (int(pos[0]), int(pos[1]), int(pos[2]))
     cells[k] = state
 
-def run_headless(steps=4000):
+def run_headless(steps=int(sys.argv[1]) if len(sys.argv)>1 else 4000):
     global cells
     cells = {}
     pos = (0,0,0)
@@ -73,4 +74,4 @@ def run_headless(steps=4000):
             print(f"{i} pos={pos} dist={dist:.1f} vel={vel:.4f} cells={len(cells)}")
 
 if __name__ == "__main__":
-    run_headless(4000)
+    run_headless(int(sys.argv[1]) if len(sys.argv)>1 else 4000)
