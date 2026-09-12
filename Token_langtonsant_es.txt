@@ -1,5 +1,1 @@
-# Mariposa de Girardelli - 3D Clock Ant
-# Rule: RLUD
-# Repo: https://github.com/GustavoGirardelli/Mariposa_de_Girardelli
-# Site: https://langtonsant.es/
 RLUD
